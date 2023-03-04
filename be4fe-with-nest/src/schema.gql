@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Dashboard {
+  id: Int!
+  name: String!
+}
+
+type Query {
+  getDashboard: Dashboard!
+}
